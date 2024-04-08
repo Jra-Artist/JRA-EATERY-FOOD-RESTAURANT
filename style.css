@@ -1,0 +1,111 @@
+.container {
+    max-width: 800px; /* Adjust according to your layout */
+    margin: 0 auto;
+}
+
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrollbar */
+    max-width: 100%;
+    margin-bottom: 20px; /* Add some spacing below the table */
+}
+
+table {
+    width: 100%; /* Table takes full width of container */
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black; /* Add borders for better visibility */
+    padding: 8px; /* Add padding for better spacing */
+}
+
+th {
+    background-color: #f2f2f2; /* Add background color for table header */
+}
+
+
+h1{
+    color: #ffffff; 
+    padding: 10px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin: 1%;
+    background-color:  rgba(9, 71, 37, 0.582);
+}
+
+
+
+
+footer {
+    background-color: #aa956f;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.social-media-links {
+    display: inline-block;
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+}
+
+.social-media-links a img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(30, 112, 57, 0.568);
+    color: white;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #045335;
+}
+
+tr:nth-child(even) {
+    background-color: #926c18bd;
+}
+
+tr:hover {
+    background-color: #966c2e;
+
+}
+
+
+body{
+    background-image: url(LAMESA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed; 
+}
+
+    
+.icon {
+    display: inline-block;
+    width: 45px; 
+    height: 40px;
+    background-image: url('ICON.jpg'); 
+    background-size: cover;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
